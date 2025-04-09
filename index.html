@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>foodOfood</title>
+</head>
+
+<body>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#"><img src="./img/NavLogo.svg" alt="" class="logo"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#categories" class="nav__link">Categories</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">foodOfood</h1>
+                    <h2 class="home__subtitle">Your one stop place to find<br> every food item.</h2>
+                    <a href="#" class="button">View Categories</a>
+                </div>
+
+                <img src="./img/heroImage.svg" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--========== ABOUT ==========-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container  bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">About us</span>
+                    <h2 class="section-title about__initial">We provide every kind of <br> food delivery service</h2>
+                    <p class="about__description">We provide the best delivery service for Fast Food, Main Course and
+                        Grocery. We have the best chain of delivery workers, shop keepers, restaurants, vegetable farms
+                        and Manufacturers. We simply connect you to the food producers directly. You don't need to step
+                        out of your home for food anymore... Just visit foodOfood!</p>
+                    <a href="#" class="button">Explore More</a>
+                </div>
+
+                <img src="./img/aboutUs.svg" alt="" class="about__img">
+            </div>
+        </section>
+
+        <!--========== SERVICES ==========-->
+        <section class="services section bd-container" id="services">
+            <span class="section-subtitle">Services</span>
+            <h2 class="section-title">Amazing Services for you</h2>
+
+            <div class="services__container  bd-grid">
+                <div class="services__content">
+                    <img class="services__img" src="./img/food.svg"></img>
+                    <h3 class="services__title">All kind of Food</h3>
+                    <p class="services__description">We offer our customer all kind of food items. From main course,
+                        fast food, beverage to grecery every food item you can get here.</p>
+                </div>
+
+                <div class="services__content">
+                    <img class="services__img" src="./img/fastfood.svg"></img>
+                    <h3 class="services__title">Fast Food</h3>
+                    <p class="services__description">We offer our customer excellent quality services for Fast Food,
+                        the most reliable in your city. Fast Food is our most used service till now.</p>
+                </div>
+
+                <div class="services__content">
+                    <img class="services__img" src="./img/delivery.svg"></img>
+                    <h3 class="services__title">Delivery</h3>
+                    <p class="services__description">We are well known for our food delivery services. Our delivery
+                        service connects the customer to the food producers seamlessly.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--========== CATEGORIES ==========-->
+        <section class="category section bd-container" id="categories">
+            <span class="section-subtitle">Categories</span>
+            <h2 class="section-title">Available Categories are</h2>
+
+            <div class="category__container bd-grid">
+                <div class="category__content">
+                    <img src="./img/Category1.svg" alt="" class="category__img">
+                    <h3 class="category__name">Fast Food</h3>
+                    <span class="category__detail">Indian dishes</span>
+                    <span class="category__starts">Starts from</span>
+                    <span class="category__price">Rs. 49</span>
+                    <a href="#" class="button category__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="category__content">
+                    <img src="./img/Category2.svg" alt="" class="category__img">
+                    <h3 class="category__name">Grocery</h3>
+                    <span class="category__detail">Vegies, food items</span>
+                    <span class="category__starts">Everything at</span>
+                    <span class="category__price">Lowest price</span>
+                    <a href="#" class="button category__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+
+                <div class="category__content">
+                    <img src="./img/Category3.svg" alt="" class="category__img">
+                    <h3 class="category__name">Main Courses</h3>
+                    <span class="category__detail">Your Favorite Dishes</span>
+                    <span class="category__starts">Starts from</span>
+                    <span class="category__price">Rs. 99</span>
+                    <a href="#" class="button category__button"><i class='bx bx-cart-alt'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--===== APP =======-->
+        <section class="app section bd-container">
+            <div class="app__container bd-grid">
+                <div class="app__data">
+                    <span class="section-subtitle app__initial">App</span>
+                    <h2 class="section-title app__initial">App is available</h2>
+                    <p class="app__description">Find our application and download it, you can make reservations, food
+                        orders, see your deliveries on the way and much more.</p>
+                    <div class="app__stores">
+                        <a href="#"><img src="./img/downloadApp.svg" alt="" class="app__store"></a>
+                        <a href="#"><img src="./img/downloadApp1.svg" alt="" class="app__store"></a>
+                    </div>
+                </div>
+
+                <img src="./img/smartphoneBanner.png" alt="" class="app__img">
+            </div>
+        </section>
+
+        <!--========== CONTACT US ==========-->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">Want to talk?</span>
+                    <h2 class="section-title contact__initial">Contact us</h2>
+                    <p class="contact__description">If you have any query you can reach out to us quickly through this
+                        section. We are always happy to talk to you :)</p>
+                </div>
+
+                <div class="contact__button">
+                    <a href="#" class="button">Contact us now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">foodOfood</a>
+                <span class="footer__description">Food Delivery Service</span>
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Services</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Delivery</a></li>
+                    <li><a href="#categories" class="footer__link">Categories</a></li>
+                    <li><a href="#" class="footer__link">Fast food</a></li>
+                    <li><a href="#" class="footer__link">Grocery</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Information</h3>
+                <ul>
+                    <li><a href="#about" class="footer__link">About us</a></li>
+                    <li><a href="#contact" class="footer__link">Contact us</a></li>
+                    <li><a href="#" class="footer__link">Privacy policy</a></li>
+                    <li><a href="#" class="footer__link">Terms of services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Adress</h3>
+                <ul>
+                    <li>NIT Silchar</li>
+                    <li>Cachar, Assam</li>
+                    <li>+91-9365660227</li>
+                    <li>foodOfood@email.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; 2023 Rohit Chakraborty. All rights reserved</p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="./main.js"></script>
+</body>
+
+</html>
